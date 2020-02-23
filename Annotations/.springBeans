@@ -11,6 +11,7 @@
 		<config>src/com/autowired/annotation/auto-beans.xml</config>
 		<config>src/com/qualifier/anno/quali-context.xml</config>
 		<config>src/com/stereotype/anno/st-type.xml</config>
+		<config>src/com/scope/anno/scope-beans.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
