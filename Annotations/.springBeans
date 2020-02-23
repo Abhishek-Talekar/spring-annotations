@@ -13,6 +13,7 @@
 		<config>src/com/stereotype/anno/st-type.xml</config>
 		<config>src/com/scope/anno/scope-beans.xml</config>
 		<config>src/com/lazy/anno/lazy-beans.xml</config>
+		<config>src/com/value/anno/value-beans.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
