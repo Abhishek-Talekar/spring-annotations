@@ -14,6 +14,7 @@
 		<config>src/com/scope/anno/scope-beans.xml</config>
 		<config>src/com/lazy/anno/lazy-beans.xml</config>
 		<config>src/com/value/anno/value-beans.xml</config>
+		<config>src/com/dependson/anno/dependson-beans.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
