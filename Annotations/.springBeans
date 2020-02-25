@@ -16,6 +16,7 @@
 		<config>src/com/value/anno/value-beans.xml</config>
 		<config>src/com/dependson/anno/dependson-beans.xml</config>
 		<config>src/com/primary/anno/primary-beans.xml</config>
+		<config>src/com/impres/anno/customer.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
