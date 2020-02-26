@@ -10,5 +10,6 @@ public class Rocket {
 	
 	public void fire() {
 		System.out.println("Rocket Fired...");
+		System.out.println(this.getClass().hashCode());
 	}
 }

@@ -8,5 +8,6 @@ public class LTest {
 		ApplicationContext context = new AnnotationConfigApplicationContext("com.lookup.anno");
 		Launcher launcher = context.getBean("launcher",Launcher.class);
 		launcher.launch();
+		launcher.launch();
 	}
 }
