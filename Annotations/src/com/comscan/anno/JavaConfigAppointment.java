@@ -3,6 +3,8 @@ package com.comscan.anno;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
+import javax.annotation.Resource;
+
 import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +18,7 @@ import org.springframework.core.env.Environment;
 @PropertySource("classpath:com/comscan/anno/application.properties")
 public class JavaConfigAppointment {
 
-	@Autowired
+	@Resource
 	private Environment env;
 
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");

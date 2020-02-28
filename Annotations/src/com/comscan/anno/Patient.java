@@ -5,7 +5,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource("classpath:com\\comscan\\anno\\patient.properties")
+@PropertySource(value = {"classpath:com\\comscan\\anno\\patient.properties"})
 public class Patient {
 	@Value("${patientName}")
 	private String patientName;
